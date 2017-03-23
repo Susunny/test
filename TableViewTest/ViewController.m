@@ -31,7 +31,11 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
+<<<<<<< HEAD
     return 1000;
+=======
+    return 1100;
+>>>>>>> db85f62614e614e059c2e9a695bf2f8972f037cb
 
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
