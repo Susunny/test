@@ -30,11 +30,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-<<<<<<< HEAD
-    return 1800;
-=======
+
     return 100;
->>>>>>> e9464763bfa185677c163546e0db400242708198
+
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.arr.count;
